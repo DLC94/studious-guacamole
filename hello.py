@@ -9,3 +9,7 @@ def hello_world():
 @app.route('/user')
 def hello_world():
     return "<p>Hello User</p>"
+
+@app.route('/edit')
+def hello_world():
+    return "<p>User edit</p>"
